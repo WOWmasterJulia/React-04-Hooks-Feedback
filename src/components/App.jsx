@@ -57,33 +57,6 @@ export default function App() {
 
 
 
-  // render() {
-  //   const { good, neutral, bad } = this.state;
-  //   return (
-  //     <Layout>
-  //       <Section title="Please leave feedback">
-  //         <FeedbackOptions
-  //           options={Object.keys(this.state)}
-  //           onLeaveFeedback={this.leaveFeedback}
-  //         />
-  //       </Section>
-  //       <Section title="Statistics">
-  //         <Statistics
-  //           good={good}
-  //           neutral={neutral}
-  //           bad={bad}
-  //           total={this.countTotalFeedback(this.state)}
-  //           positivePercentage={this.countPositiveFeedbackPercentage(
-  //             this.state
-  //           )}
-  //         ></Statistics>
-  //       </Section>
-  //       <GlobalStyle />
-  //     </Layout>
-  //   );
-  // }
-
-
 
 
 // export const App = () => {
